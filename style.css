@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  background-color: #00bcd4;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+.progress {
+  margin: 20px 0;
+  background: #b2ebf2;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#progress-bar {
+  background-color: #00acc1;
+  height: 30px;
+  color: white;
+  line-height: 30px;
+  width: 0%;
+  transition: width 0.3s;
+}
+
+.glasses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.glass {
+  font-size: 24px;
+  margin: 5px;
+}
